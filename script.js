@@ -52,7 +52,7 @@ function generatePalette() {
     
     colors = hues.map((h, i) => {
         if (locked[i] && colors[i]) return colors[i];
-        const s = mode === "monochrome" ? randRange(35, 90) : ranndRange(45, 85);
+        const s = mode === "monochrome" ? randRange(35, 90) : randRange(45, 85);
         const l = mode === "monochrome" ? randRange(20, 85) : randRange(35, 75);
         return hslToHex( h, s, l);
     });
@@ -84,7 +84,7 @@ function renderSwatches() {
         const lockBtn = document.createElement("button");
         lockBtn.className = "lock-btn";
         lockBtn.style.color = textColor;
-        lockBtn.textContent = locked[i] ? "LOCKED" : "UNLOCKED";
+        lockBtn.textContent = locked[i] ? "UNLOCK" : "LOCK";
         lockBtn.setAttribute("aria-label", locked[i] ? "Unlock color": "Lock color");
         lockBtn.onclick = () => { locked[i] = !locked[i]; renderSwatches(); };
 
