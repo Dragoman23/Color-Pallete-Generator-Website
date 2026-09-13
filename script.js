@@ -66,7 +66,7 @@ function renderModes() {
         btn.className = "mode-btn" + (mode === key ? "active" : "");
         btn.textContent = m.label;
         btn.title = m.describe;
-        btn.onclick = () => { mode=key: renderModes(); regenerate(); };
+        btn.onclick = () => { mode=key; renderModes(); regenerate(); };
         container.appendChild(btn);
     });
     document.getElementById("mode-desc").textContent = MODES[mode].describe;
