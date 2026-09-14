@@ -6,7 +6,7 @@ My website have three main function.
 2. Spin a color wheel. Then it can put that color in one of four swatches: complementary(2 colors), triadic(3 colors), analogous(3 colors), monochrome(3 colors)/
 3. Spin a topic wheel that has many topics of which an artist can draw using once of the randomized color palettes. 
 
-#Images
+# Images
 ![Screenshot 1](color_website_1.png)
 ![Screenshot 2](color_website_2.png)
 ![Screenshot 3](color_website_3.png)
