@@ -7,6 +7,11 @@ My website have three main function.
 3. Spin a topic wheel that has many topics of which an artist can draw using once of the randomized color palettes. 
 
 #Images
+![Screenshot 1](color_website_1.png)
+![Screenshot 2](color_website_2.png)
+![Screenshot 3](color_website_3.png)
+
+
 
 
 # How it Works
