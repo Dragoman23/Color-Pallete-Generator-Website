@@ -1,4 +1,4 @@
-# Color-Palette-Generator-Website
+# Color and Topic Generator Website for Artists
 
 # What the Website Does
 My website have three main function.
