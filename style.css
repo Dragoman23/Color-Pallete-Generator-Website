@@ -247,3 +247,57 @@ footer p {
 .result-swatch .hex-btn {
     font-size: 13px;
 }
+
+/* Topic Wheel */
+
+#label-wheel-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 40px 20px;
+}
+
+#label-wheel-wrap {
+    position: relative;
+    width: 320px;
+    height: 320px;
+}
+
+#label-wheel {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 24px rgba(0,0,0, 0.12);
+    transition: transform 4s cubic-bezier(0.15, 0.9, 0.15, 1);
+}
+
+#label-wheel text {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    fill: #fff;
+}
+
+#label-pointer {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid #111111;
+    z-index: 2;
+}
+
+#label-result {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111111;
+    min-height: 32px;
+    text-align: center;
+}
