@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Topic Wheel</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+</html>
+
+<header>
+    <div>
+        <h1>Topic Wheel</h1>
+        <p>Spin the wheel to pick what to create.</p>
+    </div>
+</header>
+
+<nav class="page-nav">
+    <a href="index.html" class="nav-link">Swatch Generator</a>
+    <a href="wheel.html" class="nav-link">Color Wheel</a>
+    <a href="topic-wheel.html" class="nav-link active">Topic Wheel</a>
+</nav>
+
+<div id="label-wheel-page">
+    <div id="label-wheel-wrap">
+        <div id="label-pointer"></div>
+        <svg id="label-wheel" viewBox="0 0 320 320"></svg>
+    </div>
+
+    <button id="spin-btn">Spin the Wheel</button>
+
+    <div id="label-result"></div>
+</div>
+
+<script src="label-wheel.js"></script>
+<scirpt>
+    const TOPICS = [
+        "Animal", "Portrait", "Landscape", "Still Life",
+        "Fantasy Creature", "Sci-Fi Scene", "Horror", "Slice of Life",
+        "Dynamic Pose", "Facial Expression", "Outfit Design", "Self-Portrait"
+    ];
+  initLabelWheel(TOPICS);
+</scirpt>
+</body>
+</html>
