@@ -19,7 +19,34 @@ It was made using 3 html files(index.html, wheel.html, topic-wheel.html) for the
 All three html files use the same shared css file(style.css)
 Finally, there are three js files(script.js, wheel.js, label-wheel.js) that add functionality to each webpage.
 
-# How to Install It
+## How to Install It
+
+This is a static website — no build tools or dependencies required.
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/Dragoman23/Color-Pallete-Generator-Website.git
+   cd Color-Pallete-Generator-Website
+```
+
+2. **Open it in your browser**
+
+   Since the pages link to each other via relative paths, it's best to serve the folder rather than double-clicking the HTML file directly. Pick one:
+
+   - **VS Code Live Server**: right-click `index.html` → "Open with Live Server"
+   - **Python**:
+```bash
+     python3 -m http.server 8000
+```
+     then visit `http://localhost:8000`
+   - **Node**:
+```bash
+     npx serve .
+```
+
+3. **Start from `index.html`** — it links to `wheel.html` (Color Wheel) and `topic-wheel.html` (Topic Wheel).
+
+No API keys, environment variables, or dependencies are needed — everything runs client-side in vanilla HTML/CSS/JS.
 
 # How to Use It
 To use the website, just click on the website linked in the top right corner of this repository. The Website is hosted on vercel allowing for a website that anyone can use.
