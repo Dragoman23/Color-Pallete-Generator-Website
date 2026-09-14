@@ -36,7 +36,7 @@ This is a static website — no build tools or dependencies required.
    - **VS Code Live Server**: right-click `index.html` → "Open with Live Server"
    - **Python**:
 ```bash
-     python3 -m http.server 8000
+python3 -m http.server 8000
 ```
      then visit `http://localhost:8000`
    - **Node**:
